@@ -940,3 +940,110 @@ margin:0 !important;
     height: 40px;
     font-weight: bold;
 }
+.post-body a{
+color:blue !important;
+}
+#menu-select {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 47px;
+    cursor: pointer;
+    z-index: 999999;
+    clear: both;
+    background: #E74C3C;
+    overflow: hidden;
+    line-height: 47px;
+    text-align: center;
+    font-weight: bold;opacity: 1;
+}
+#content {
+    position: relative;
+    width: 100%;
+    float: left;
+    padding: 20px 10px 10px 0;
+    border-right: 1px solid #eee;
+}
+.sidebar-wrapper {
+    width: 330px;
+    float: right;
+    padding: 20px 0;
+    background: transparent;
+    z-index: 0;
+}
+#related_posts, #sidebar {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    display: block;
+}
+div.post-content {
+    float: right;
+    max-width: 480px;
+}
+ul.menu > li > a {
+    padding: 20px 10px;
+}
+ul.menu ul {
+    width: 300px;
+}
+  .post-body{text-align:justify}
+.post-title {
+    font-size: 24px;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
+@media screen and (max-width: 768px){
+  img{max-width:100%; height:auto}
+  .infa{display:none}
+#menu-select{display:block}
+  ul.menu li{width:100%;}
+  #menu-box{display:none;}
+  .mnopen{display:block !important; background:#2c3e50; overflow:hidden;}
+  #menu.fixed{position: fixed;top: 0;width: 100%;}
+  .anmobile{display:none !important}
+  ul.menu {
+    float: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2em;
+    position: relative;
+    z-index: 1;
+    height: auto;
+    overflow: scroll;
+    display:block;
+}
+ul.menu > li > a {
+    padding:10px;
+    border-bottom: 1px solid #415C77; font-weight:normal;
+}
+ul.menu ul.sub-menu {
+    display: block;
+    top: 100%;
+    height: auto;
+    opacity: 1;border:none;
+    width: 100%;padding:0;
+position: inherit;
+}
+  ul.menu ul.sub-menu a{border-bottom: 1px solid #415C77;}
+ul.menu ul li:first-child {
+    border: none;
+}
+ul.menu > li > ul > li:first-child > a::before {
+border:none;
+}
+ul.menu ul li a {
+ 
+    padding: 9px 10px 8px;
+}
+ul.menu ul li {
+    padding-left: 20px;
+}
+.ct-wrapper {
+    padding: 0px;
+}
+  #search-form-header{display:none}
+}
