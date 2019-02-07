@@ -996,6 +996,7 @@ ul.menu ul {
     padding: 0 0 10px;
 }
 @media screen and (max-width: 768px){
+    .mobile-index-arrow{display:none}
   img{max-width:100%; height:auto}
   .infa{display:none}
 #menu-select{display:block}
