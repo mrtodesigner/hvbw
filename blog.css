@@ -1043,7 +1043,7 @@ ul.menu ul li {
     padding-left: 20px;
 }
 .ct-wrapper {
-    padding: 0px;
+    padding: 0px 15px;
 }
   #search-form-header{display:none}
 }
