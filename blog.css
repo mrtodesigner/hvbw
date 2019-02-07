@@ -922,7 +922,7 @@ color:#fff;
 float:right;
 }
 
-.meta span.ico16-link a{color:#fff}
+.meta span.ico16-link a{color:#fff !important}
 
 .form-contact form input {
     vertical-align: middle;
