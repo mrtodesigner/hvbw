@@ -917,10 +917,12 @@ padding:5px;
 }
 
 .meta span:last-child{
-background:#ccc;
+background:#E74C3C;
 color:#fff;
 float:right;
 }
+
+.meta span.ico16-link a{color:#fff}
 
 .form-contact form input {
     vertical-align: middle;
