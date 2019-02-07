@@ -997,6 +997,7 @@ ul.menu ul {
     margin: 0 0 10px;
     padding: 0 0 10px;
 }
+a.post-thumb span{display:none}
 @media screen and (max-width: 768px){
     .mobile-index-arrow{display:none}
   img{max-width:100%; height:auto}
