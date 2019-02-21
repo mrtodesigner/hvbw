@@ -56,7 +56,7 @@
 						modal.animate({
 							"top":  JQuery(document).scrollTop()-topOffset + 'px',
 							"opacity" : 0
-						}, options.animationspeed/2, function() {
+						}, 0, function() {
 							modal.css({'top':topMeasure, 'opacity' : 1, 'visibility' : 'hidden'});
 							unlockModal();
 						});					
@@ -65,7 +65,7 @@
 						modalBG.delay(options.animationspeed).fadeOut(options.animationspeed);
 						modal.animate({
 							"opacity" : 0
-						}, options.animationspeed, function() {
+						}, 0, function() {
 							modal.css({'opacity' : 1, 'visibility' : 'hidden', 'top' : topMeasure});
 							unlockModal();
 						});					
