@@ -140,12 +140,16 @@ jQuery("#myModalthanh").html(formdiv);
 function thanhxet(){
 
 if(submittedform) {
-	window.location="https://hocvienfaceseo.com";
-	
-	 if(document.cookie.indexOf("adf") == -1)
-                   {
-                   setCookie('formdangky','dahien',thoigiancookie);
-                   }
+	window.location="https://qno.vn";
+
+if(getCookie("https://duongthanhdtc.com")){
+                	
+    }else{
+                   
+                    setCookie('https://duongthanhdtc.com','1',thoigiancookie); 
+    }
+
+
 
      jQuery('#myModalthanh').css('display','none');				   
 	 jQuery('.thanhfaceseo-modal-bg').css('display','none');	
@@ -153,14 +157,32 @@ if(submittedform) {
 	}	
 }
 
+
+ function setCookie(cname, cvalue, exdays) {
+                var d = new Date();
+                d.setTime(d.getTime() + (exdays*1000));
+                var expires = "expires="+d.toUTCString();
+                document.cookie = cname + "=" + cvalue + "; " + expires;
+            }
+             
+            function getCookie(cname) {
+                var name = cname + "=";
+                var ca = document.cookie.split(';');
+                for(var i=0; i<ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0)==' ') c = c.substring(1);
+                    if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+                }
+                return "";
+            }
 		
 function showform(){
-	//alert(document.cookie.indexOf("dahien"));
-	if(document.cookie.indexOf("adf") == -1){
-		document.cookie = "adfpopunder1=adf";
-		   
-			jQuery('#myModalthanh').thanhfaceseo(jQuery('#myModalthanh').data());
-	}
+	if(getCookie("https://duongthanhdtc.com")){
+                	
+    }else{
+                    jQuery('#myModalthanh').thanhfaceseo(jQuery('#myModalthanh').data());
+                    setCookie('https://duongthanhdtc.com','1','3'); 
+    }	
 }
 var action = setTimeout(function(){
     showform();
