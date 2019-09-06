@@ -141,12 +141,12 @@ function thanhxet(){
 
 if(submittedform) {
 	window.location="https://qno.vn";
-
-if(getCookie("https://duongthanhdtc.com")){
+var linkhientai=window.location;
+if(getCookie(linkhientai)){
                 	
     }else{
                    
-                    setCookie('https://duongthanhdtc.com','1',thoigiancookie); 
+                    setCookie(linkhientai,'1',thoigiancookie); 
     }
 
 
@@ -177,11 +177,12 @@ if(getCookie("https://duongthanhdtc.com")){
             }
 		
 function showform(){
-	if(getCookie("https://duongthanhdtc.com")){
+	var linkhientai=window.location;
+	if(getCookie(linkhientai)){
                 	
     }else{
                     jQuery('#myModalthanh').thanhfaceseo(jQuery('#myModalthanh').data());
-                    setCookie('https://duongthanhdtc.com','1','3'); 
+                    setCookie(linkhientai,'1','3'); 
     }	
 }
 var action = setTimeout(function(){
