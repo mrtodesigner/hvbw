@@ -184,6 +184,6 @@ function showform(){
                     setCookie(linkhientai,'1',thoigianhien); 
     }	
 }
-var action = setTimeout(function(){
-    showform();
-}, thoigianhien);
+
+var myVar=setInterval(function () {showform()}, 1000);
+
