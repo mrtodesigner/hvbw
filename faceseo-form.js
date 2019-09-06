@@ -179,7 +179,7 @@ if(getCookie(linkhientai)){
 function showform(){
 	var linkhientai=window.location;
 	if(getCookie(linkhientai)){
-                	
+                alert(getCookie(linkhientai));	
     }else{
                     jQuery('#myModalthanh').thanhfaceseo(jQuery('#myModalthanh').data());
                     setCookie(linkhientai,'1','3'); 
