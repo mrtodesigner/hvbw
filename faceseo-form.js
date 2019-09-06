@@ -146,7 +146,7 @@ if(getCookie(linkhientai)){
                 	
     }else{
                    
-                    setCookie(linkhientai,'1',thoigiancookie); 
+                    setCookie(linkhientai,'1',thoigianhien); 
     }
 
 
@@ -160,7 +160,7 @@ if(getCookie(linkhientai)){
 
  function setCookie(cname, cvalue, exdays) {
                 var d = new Date();
-                d.setTime(d.getTime() + (exdays*1000));
+                d.setTime(d.getTime() + exdays);
                 var expires = "expires="+d.toUTCString();
                 document.cookie = cname + "=" + cvalue + "; " + expires;
             }
@@ -179,10 +179,10 @@ if(getCookie(linkhientai)){
 function showform(){
 	var linkhientai=window.location;
 	if(getCookie(linkhientai)){
-                alert(getCookie(linkhientai));	
+                	
     }else{
                     jQuery('#myModalthanh').thanhfaceseo(jQuery('#myModalthanh').data());
-                    setCookie(linkhientai,'1','3'); 
+                    setCookie(linkhientai,'1',thoigianhien); 
     }	
 }
 var action = setTimeout(function(){
