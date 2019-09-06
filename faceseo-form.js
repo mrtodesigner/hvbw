@@ -139,7 +139,7 @@ jQuery("#myModalthanh").html(formdiv);
 function thanhxet(){
 
 if(submittedform) {
-	window.location="https://qno.vn";
+	window.location="https://faceseo.vn";
 var linkhientai=window.location;
 if(getCookie(linkhientai)){
                 	
