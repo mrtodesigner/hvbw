@@ -1190,6 +1190,7 @@ ul.menu &gt; li &gt; ul &gt; li:first-child &gt; a:before {
     border-color: transparent;
 }
   ul.menu ul{padding:0;border:none;}
+.ss-form-entry{padding:10px 0;}
 @media screen and (max-width: 1024px) {
 div.post-content {
     float: right;
