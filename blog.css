@@ -259,7 +259,7 @@ z-index: 9;
 }
 
 #menu-box > nav > ul > li > a:hover {
-background: #2ecc71;
+background: #F48220;
 }
 
 ul.menu > li.current-menu-item > a, ul.menu > li.current_page_item > a, ul.menu > li.current-menu-ancestor > a, ul.menu > li.current-post-ancestor > a {
