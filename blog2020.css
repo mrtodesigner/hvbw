@@ -258,7 +258,7 @@ padding: 19.7px;
 z-index: 9;
 }
 
-#menu-box > nav > ul > li > a:hover {
+#menu-box > nav > ul > li > a:hover,#menu-box > nav > ul > li.active>a {
 background: #F48220;
 }
 
