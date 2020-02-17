@@ -795,7 +795,7 @@ font-weight:light;
 
 .footer {  float: left;  width: 33%;  }
 .footer h2 {  color: #ddd;  font-size: 19px;  font-weight: normal;  margin-bottom: 12px;  text-transform: none;  }
-.footer .widget{  clear: both;  font-size: 16px;  line-height: 26px;  margin: 15px 10px 25px;  }
+.footer .widget{  clear: both;  font-size: 15px;  line-height: 26px;  margin: 15px 10px 25px;  }
 .footer ul{ margin:0; padding:0; list-style:none; }
 .footer li{ list-style:none; margin: 0;  padding: 0 0 5px;  text-transform: capitalize;  }
 
