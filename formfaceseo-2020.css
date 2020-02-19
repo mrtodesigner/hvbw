@@ -1,1 +1,253 @@
-.thanhfaceseo-modal-bg {	position: fixed;	height: 100%;	width: 100%;	background: #000;	background: rgba(0, 0, 0, .8);	z-index:999999999;	display: none;	top: 0;	left: 0;}.thanhfaceseo-modal {	visibility: hidden;	text-align:center;	top: 50%;	left: 50%;	position:fixed;	z-index: 9999999999999;	padding: 10px 25px 10px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	border-radius: 5px;	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, .4);	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .4);	-box-shadow: 0 0 10px rgba(0, 0, 0, .4);	left: 0px;	right: 0px;	top: 30px !important;	bottom: 0px;	background-color: rgba(0, 0, 0, .9);	pointer-events: all;}.thanhfaceseo-modal.small {	width: 200px;	margin-left: -140px;}.thanhfaceseo-modal.medium {	width: 400px;	margin-left: -240px;}.thanhfaceseo-modal.large {	width: 600px;	margin-left: -340px;}.thanhfaceseo-modal.xlarge {	width: 800px;	margin-left: -440px;}.thanhfaceseo-modal .close-thanhfaceseo-modal {	font-size: 22px;	line-height: .5;	position: absolute;	top: 8px;	right: 11px;	color: #fff;	text-shadow: 0 -1px 1px rbga(0, 0, 0, .6);	font-weight: bold;	cursor: pointer;	z-index: 9999999999999;}.big-link {	display:block;	margin-top: 100px;	text-align: center;	font-size: 70px;	color: #06f;}#menu-primary {	z-index:100 !important;}.box-thanh-form {	display: flex;	opacity: 1;	position: absolute;	left: 50%;	top: 50%;transition: all ease .4s;	transform: translate(-50%, -50%);	max-width: 900px;	max-height: 800px;}.box-thanh-form .thanhform-level1 {	color: #4d4c47;	font-size: 16px;	font-weight: bold;	line-height: 38px;	margin-bottom: 0;	margin-top: 10px;	text-align: center;	text-transform: uppercase;}.box-thanh-form .thanhform-level2 {	color: #4d4c47;	display: block;	font-size: 16px;	line-height: 24px;	margin: 0 auto;	padding-bottom: 0;	text-align: center;	width: 100%;}.box-thanh-form .thanhgform_wrapper .thanhtop_label input.medium {	height: 40px;}.box-thanh-form .thanhgform_wrapper ul li.gfield {	clear: both;	padding-bottom: 25px;	list-style:none;}.box-thanh-form .thanhgform_wrapper .thanhtop_label .gfield_label {	color: #333;	display: block;	font-weight: bold;	margin-bottom: 0;	padding: 10px;	text-align: left !important;	text-transform: uppercase;}.box-thanh-form .thanhgform_wrapper label.gfield_label + div.ginput_container {	margin-top: 0;}.thanhgform_wrapper .gform_footer input[type="submit"] {	background: #ffc552 none no-repeat scroll 0 0;	border: medium none;	border-radius: 3px;	color: #fff;	display: block;	font-family: Arial, Helvetica, sans-serif;	font-size: 16px;	font-weight: 700;	height: initial;	line-height: 24px;	padding: 14px;	position: relative;	text-align: center;	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);	text-transform: uppercase;	transition: all 0.5s ease 0s;	width: 100%;	cursor: pointer;}.thanhgform_wrapper .gform_footer input[type="submit"]:hover {	background: #ffa430 none repeat scroll 0 0;}.thanhgform_wrapper .thanhtop_label input.medium, .thanhgform_wrapper .thanhtop_label select.medium {	background-color: #fff;	background-image: none;	border: 1px solid #ccc;	border-radius: 3px;	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;	color: #555;	font-size: 15px;	height: 48px;	line-height: 15px;	padding-left: 12px;	padding-right: 12px;	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;	width: 100%;}.box-thanh-form .thanhform-level1 {	margin-top: 10px;	padding-bottom: 0;}.box-thanh-form .thanhform-level2 {	padding-bottom: 0;}.thanhtop_label {	padding:0;}.box-thanh-form .thanhgform_wrapper .gform_footer {	padding-bottom: 10px;	padding-top: 0px;}.form-title {	font-size: 36px;	text-transform: uppercase;	margin-top: 0px;	margin-bottom: 40px;color:#fff;}.yellow-text-gradient {}.description {	font-size: 18px;	color: #fff;	margin-bottom: 45px;}.popup-body {	display: flex;	opacity: 0;	position: absolute;	left: 50%;	top: 0; transition: all ease .4s;	transform: translate(-50%, -100%);	width: 1300px;	max-width: 70%;	max-height: 90%;	top: 50%;	transform: translate(-50%, -50%);	opacity: 1;}.form-hasBg {	padding-top: 50px;	padding-bottom: 70px;	background: #0e244c;	background: radial-gradient(#83c000, #1ca347);	position: relative;	text-align: center;	color: #fff;	padding:20px;}.hotlinegoi {	color: yellow;	font-size: 30px;	text-transform: uppercase;	padding: 10px 0;	display: block;	text-decoration: none;}.thanhan {	display: none;} @media screen and (max-width: 1366px) { .form-title {font-size:20px;margin-bottom:5px;} .description {display:none;}} @media screen and (max-width: 768px) { .form-title {font-size:18px;margin-bottom:5px;} .box-thanh-form .thanhgform_wrapper ul li.gfield { padding-bottom: 10px;} .description {display:none;} .hotlinegoi {font-size:16px;} .popup-body {max-width: 90%;}}
+.thanhfaceseo-modal-bg {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	background: rgba(0, 0, 0, .8);
+	z-index: 999999999;
+	display: none;
+	top: 0;
+	left: 0;
+}
+.thanhfaceseo-modal {
+	visibility: hidden;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	position: fixed;
+	z-index: 9999999999999;
+	padding: 10px 25px 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+	-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+	left: 0px;
+	right: 0px;
+	top: 30px !important;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, .9);
+	pointer-events: all;
+}
+.thanhfaceseo-modal.small {
+	width: 200px;
+	margin-left: -140px;
+}
+.thanhfaceseo-modal.medium {
+	width: 400px;
+	margin-left: -240px;
+}
+.thanhfaceseo-modal.large {
+	width: 600px;
+	margin-left: -340px;
+}
+.thanhfaceseo-modal.xlarge {
+	width: 800px;
+	margin-left: -440px;
+}
+.thanhfaceseo-modal .close-thanhfaceseo-modal {
+	font-size: 22px;
+	line-height: .5;
+	position: absolute;
+	top: 8px;
+	right: 11px;
+	color: #fff;
+	text-shadow: 0 -1px 1px rbga(0, 0, 0, .6);
+	font-weight: bold;
+	cursor: pointer;
+	z-index: 9999999999999;
+}
+.big-link {
+	display: block;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 70px;
+	color: #06f;
+}
+#menu-primary {
+	z-index: 100 !important;
+}
+.box-thanh-form {
+	display: flex;
+	opacity: 1;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transition: all ease .4s;
+	transform: translate(-50%, -50%);
+	max-width: 900px;
+	max-height: 800px;
+}
+.box-thanh-form .thanhform-level1 {
+	color: #4d4c47;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 38px;
+	margin-bottom: 0;
+	margin-top: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.box-thanh-form .thanhform-level2 {
+	color: #4d4c47;
+	display: block;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 auto;
+	padding-bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+.box-thanh-form .thanhgform_wrapper .thanhtop_label input.medium {
+	height: 40px;
+}
+.box-thanh-form .thanhgform_wrapper ul li.gfield {
+	clear: both;
+	padding-bottom: 25px;
+	list-style: none;
+}
+.box-thanh-form .thanhgform_wrapper .thanhtop_label .gfield_label {
+	color: #333;
+	display: block;
+	font-weight: bold;
+	margin-bottom: 0;
+	padding: 10px;
+	text-align: left !important;
+	text-transform: uppercase;
+}
+.box-thanh-form .thanhgform_wrapper label.gfield_label + div.ginput_container {
+	margin-top: 0;
+}
+.thanhgform_wrapper .gform_footer input[type="submit"] {
+	background: #ffc552 none no-repeat scroll 0 0;
+	border: medium none;
+	border-radius: 3px;
+	color: #fff;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	height: initial;
+	line-height: 24px;
+	padding: 14px;
+	position: relative;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+	text-transform: uppercase;
+	transition: all 0.5s ease 0s;
+	width: 100%;
+	cursor: pointer;
+}
+.thanhgform_wrapper .gform_footer input[type="submit"]:hover {
+	background: #ffa430 none repeat scroll 0 0;
+}
+.thanhgform_wrapper .thanhtop_label input.medium, .thanhgform_wrapper .thanhtop_label select.medium {
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	color: #555;
+	font-size: 15px;
+	height: 48px;
+	line-height: 15px;
+	padding-left: 12px;
+	padding-right: 12px;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	width: 100%;
+}
+.box-thanh-form .thanhform-level1 {
+	margin-top: 10px;
+	padding-bottom: 0;
+}
+.box-thanh-form .thanhform-level2 {
+	padding-bottom: 0;
+}
+.thanhtop_label {
+	padding: 0;
+	margin: 0;
+}
+.box-thanh-form .thanhgform_wrapper .gform_footer {
+	padding-bottom: 10px;
+	padding-top: 0px;
+}
+.form-title {
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	color: #fff;
+}
+.yellow-text-gradient {
+}
+.description {
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 45px;
+}
+.popup-body {
+	display: flex;
+	opacity: 0;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transition: all ease .4s;
+	transform: translate(-50%, -100%);
+	width: 1300px;
+	max-width: 70%;
+	max-height: 90%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 1;
+}
+.form-hasBg {
+	padding-top: 50px;
+	padding-bottom: 70px;
+	background: #0e244c;
+	background: radial-gradient(#83c000, #1ca347);
+	position: relative;
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+}
+.hotlinegoi {
+	color: yellow;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 10px 0;
+	display: block;
+	text-decoration: none;
+}
+.thanhan {
+	display: none;
+}
+
+@media screen and (max-width: 1366px) {
+.form-title {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.description {
+	display: none;
+}
+}
+
+@media screen and (max-width: 768px) {
+.form-title {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.box-thanh-form .thanhgform_wrapper ul li.gfield {
+	padding-bottom: 10px;
+}
+.description {
+	display: none;
+}
+.hotlinegoi {
+	font-size: 16px;
+}
+.popup-body {
+	max-width: 90%;
+}
+}
