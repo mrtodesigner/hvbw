@@ -118,7 +118,7 @@ var dienthoai="2054168777";
 var email="17855502";
 var duan="1239766062";
 var submittitle='Đăng ký tư vấn';
-var submittedform=false;
+var submittedformthanh=false;
 var titleheader="ĐĂNG KÝ TƯ VẤN NHẬN ƯU ĐÃI";
 var hotline="0931342229";
 var linkhientai=window.location.href;
@@ -139,7 +139,7 @@ jQuery("#myModalthanh").html(formdiv);
 		
 function thanhxet(){
 
-if(submittedform) {
+if(submittedformthanh) {
 	
 	 if(document.cookie.indexOf("dahien") == -1)
                    {
