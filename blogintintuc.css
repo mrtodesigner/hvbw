@@ -8218,3 +8218,11 @@ body#layout .bocuc-right {width:30%;float:left}
   font-size: 22px;
 margin: 0;
 }
+.btn-lg, .btn-group-lg > .btn {
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.ss-form-entry{margin-bottom:10px;}
