@@ -1,6 +1,6 @@
       //<![CDATA[
       imgr = new Array();
-      imgr[0] = "https://centralland.com.vn/wp-content/uploads/2019/06/faceseo-banner-1.jpg";
+      imgr[0] = "https://1.bp.blogspot.com/-xYvjrag3Mtc/Xo1Mh-gXe2I/AAAAAAAAG3w/CyI5-Q0o5LoXZhfR2j9XeK4kajVZyiHtgCLcBGAsYHQ/s1600/faceseo-banner-1.jpg";
       showRandomImg = true;
       aBold = true;
       summaryPost = 140;
